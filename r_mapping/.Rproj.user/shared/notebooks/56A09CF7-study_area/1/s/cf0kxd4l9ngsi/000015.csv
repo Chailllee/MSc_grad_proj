@@ -1,0 +1,19 @@
+"0","library(tmap)
+"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"2","
+载入程序包：‘tmap’
+
+"
+"2","The following object is masked from ‘package:datasets’:
+
+    rivers
+
+"

@@ -1,0 +1,4 @@
+"0","popViewport()"
+"2","错误于grid.Call.graphics(C_unsetviewport, as.integer(n)): 
+  无法弹到最上层的視窗('grid'和'graphics'输出有混合？)
+"

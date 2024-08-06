@@ -1,0 +1,4 @@
+"0",""
+"0","# 使用viewport将预览图嵌入主图的右下角"
+"0","vp <- viewport(x = 0.86, y = 0.29, width = 0.5, height = 0.55)"
+"0","pushViewport(vp)"

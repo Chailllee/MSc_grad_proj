@@ -1,0 +1,28 @@
+"0","# 设置 tmap 模式为视图"
+"0","tmap_mode(""plot"")"
+"2","tmap mode set to 'plot'
+"
+"0","# 主图"
+"0","main_plot <- tm_shape(filtered_boroughs) +"
+"0","  tm_polygons(col = ""#756bb1"", border.col = ""white"", border.lwd = 0.8) +"
+"0","  tm_layout(frame = FALSE) +"
+"0","  tm_scale_bar(position = c(0.05, 0.05), text.size = 0.75) +"
+"0","  tm_compass(north=0,  type = ""arrow"", position = c(""right"", ""top""))"
+"2","-- tmap v3 code detected --
+"
+"2","[v3->v4] tm_polygons(): use 'fill' for the fill color of polygons/symbols (instead of 'col'), and 'col' for the outlines (instead of 'border.col')
+"
+"2","As of version 4.0, 'tm_scale_bar()' is deprecated. Please use 'tm_scalebar()' instead.FALSE
+"
+"0","# 整个伦敦地图的预览图"
+"0","preview_plot <- tm_shape(lon_boro) +"
+"0","  tm_polygons(col = ""lightgray"", border.col = NA) +"
+"0","  tm_shape(filtered_boroughs) +"
+"0","  tm_polygons(col = ""#756bb1"", border.col = ""white"", border.lwd = 0.5) +"
+"0","  tm_layout(frame = FALSE)"
+"2","[v3->v4] tm_polygons(): use 'fill' for the fill color of polygons/symbols (instead of 'col'), and 'col' for the outlines (instead of 'border.col')
+"
+"2","[v3->v4] tm_polygons(): use 'fill' for the fill color of polygons/symbols (instead of 'col'), and 'col' for the outlines (instead of 'border.col')
+"
+"0","# 绘制主图"
+"0","print(main_plot)"
