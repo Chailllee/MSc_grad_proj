@@ -32,7 +32,7 @@ This study evaluates the impact of the Ultra-Low Emission Zone (ULEZ) policy on 
 ├── Data_output/         # Processed data outputs and intermediate results
 ├── others/              # Miscellaneous files and scripts (not directly related to the dissertation; can be ignored)
 ├── Evaluating the Impact of Ultra Low Emission Zone Policies on Air Quality and Public Transportation Choices in Central London.pdf  # MSc Dissertation document
-├── README.md            # Project documentation data/                # Raw and processed datasets
+├── README.md            # # Final MSc dissertation                # Raw and processed datasets
 
 ```
 
