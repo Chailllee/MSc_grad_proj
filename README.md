@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the research and analysis conducted for the MSc dissertation titled *Evaluating the Impact of Ultra Low Emission Zone Policies on Air Quality and Public Transportation Choices in Central London* by Xiaoyi Chen. The study assesses the effectiveness of ULEZ in reducing air pollution and influencing public transportation usage.
+This repository contains the research and analysis conducted for the MSc dissertation titled *Evaluating the Impact of Ultra Low Emission Zone Policies on Air Quality and Public Transportation Choices in Central London* by Xiaoyi. The study assesses the effectiveness of ULEZ in reducing air pollution and influencing public transportation usage.
 
 ## Abstract
 
@@ -12,11 +12,14 @@ This study evaluates the impact of the Ultra-Low Emission Zone (ULEZ) policy on 
 
 - **Data Sources:** Air pollution levels, traffic flow, and public transport statistics from government and open datasets.
 - **Data Processing:** Missing value interpolation and Kriging-based spatial interpolation.
+![Data processing flowchart](others\Figure 3 Data processing flowchart.png)
 - **Analysis Techniques:** Exploratory Data Analysis (EDA), time-series analysis, and regression modeling.
 
 ## Key Findings
 
 - ULEZ implementation led to notable reductions in NO and NO2 levels, particularly in high-traffic areas like the City of London, Camden, and Kensington.
+
+
 - Public transportation usage saw an increase, suggesting a behavioral shift due to the policy.
 - Kriging-based spatial interpolation effectively estimated air quality improvements in targeted zones.
 -
@@ -36,7 +39,6 @@ This study evaluates the impact of the Ultra-Low Emission Zone (ULEZ) policy on 
 │   ├── dfl_traffic_count/ # Traffic count data
 │   ├── london_boundaries/ # Geographic boundaries of London
 │   ├── meteoStat/       # Meteorological data
-│   ├── others/          # Miscellaneous data files
 │   ├── tfl_crowding_data/ # Transport for London crowding data
 │   └── tfl_geo_data/    # Geographic data from Transport for London
 ├── Data_output/         # Processed data outputs and intermediate results
@@ -53,4 +55,26 @@ If you find this work useful, please cite:
 ## Contact
 
 For any questions or collaborations, feel free to reach out via GitHub issues or email.
+
+
+
+## Improvements and Future Work
+
+Based on feedback from the dissertation markers, several areas for improvement have been identified:
+
+1. **Research Framing and Design**:  
+   - The introduction is concise, but could have better signposted the structure of the paper, chapter by chapter, and provided a summary of key results and their implications.  
+   - A broader review of econometric literature related to driving restrictions and their effects on air quality would have strengthened the literature review. In particular, methods such as difference-in-differences and regression discontinuity, often used in policy evaluation, would have provided greater analytical depth.
+
+2. **Analysis and Critical Reflection**:  
+   - The time series analysis took on a descriptive nature rather than analytical. A regression discontinuity approach would have allowed for more precise measurements of policy effects.  
+   - The "difference between periods" section could benefit from a Difference-in-Differences approach, which would generate more statistically significant insights into the impact of ULEZ.
+   - The correlation analysis was too broad and included peripheral data. Narrowing the focus would strengthen the analysis.
+   - Regression results were not presented in the standard way, lacking p-values, standard errors, and R-squared values. Reorganizing these results in a table would provide clearer insights.
+
+3. **Visualization**:  
+   - Some figures, such as **Figure 4.1.1**, could be reworked to be more information-dense, improving comparison across boroughs.
+   - **Figure 4.2.1** was found to be too crowded and large, making it difficult to extract meaningful insights.
+
+These insights will inform future work and revisions to the analysis and presentation.
 
