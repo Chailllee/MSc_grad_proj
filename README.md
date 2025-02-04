@@ -28,14 +28,23 @@ This study evaluates the impact of the Ultra-Low Emission Zone (ULEZ) policy on 
 ├── 1Interpolation/      # Code and data related to interpolation techniques
 ├── 2Kriging/            # Kriging-based spatial interpolation files
 ├── 3Method/             # Methods and scripts for data analysis
+│   ├── 3-1EDA/          # Exploratory Data Analysis
+│   ├── 3-2Correlation/  # Correlation analysis
+│   └── 3-3Diff/         # Difference-based analysis
 ├── Data/                # Raw datasets used in the project
+│   ├── AirQuality/      # Air quality data
+│   ├── dfl_traffic_count/ # Traffic count data
+│   ├── london_boundaries/ # Geographic boundaries of London
+│   ├── meteoStat/       # Meteorological data
+│   ├── others/          # Miscellaneous data files
+│   ├── tfl_crowding_data/ # Transport for London crowding data
+│   └── tfl_geo_data/    # Geographic data from Transport for London
 ├── Data_output/         # Processed data outputs and intermediate results
 ├── others/              # Miscellaneous files and scripts (not directly related to the dissertation; can be ignored)
-├── Evaluating the Impact of Ultra Low Emission Zone Policies on Air Quality and Public Transportation Choices in Central London.pdf  # MSc Dissertation document
-├── README.md            # # Final MSc dissertation                # Raw and processed datasets
-
+├── Evaluating the Impact of Ultra Low Emission Zone Policies on Air Quality and Public Transportation Choices in Central London.pdf  
+                         # MSc Dissertation document
+├── README.md            # Project documentation
 ```
-
 ## Citation
 
 If you find this work useful, please cite:
