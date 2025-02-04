@@ -19,6 +19,7 @@ This study evaluates the impact of the Ultra-Low Emission Zone (ULEZ) policy on 
 
 - ULEZ implementation led to notable reductions in NO and NO2 levels, particularly in high-traffic areas like the City of London, Camden, and Kensington.
 
+![Data processing flowchart](others/Figure 3 Data processing flowchart.png)
 
 - Public transportation usage saw an increase, suggesting a behavioral shift due to the policy.
 - Kriging-based spatial interpolation effectively estimated air quality improvements in targeted zones.
