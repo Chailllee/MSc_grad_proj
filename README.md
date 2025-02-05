@@ -34,21 +34,37 @@ This study evaluates the impact of the Ultra-Low Emission Zone (ULEZ) policy on 
 
 1. **Significant Reduction in Air Pollution Levels**
    - The **Ultra-Low Emission Zone (ULEZ)** policy led to **notable decreases in Nitric Oxide (NO) and Nitrogen Dioxide (NO2) levels**, especially in the later expansion stages (2021 & 2023).
-
-<p align="center">
-   <img src="others\time trend NO.png" alt="Time trend of Nitric Oxide (NO) levels" width="45%" style="display: inline-block;"/>
-   <img src="others\time trend NO2.png" alt="Time trend of Nitrogen Dioxide (NO2) levels" width="45%" style="display: inline-block;"/>
-</p>
-<p align="center">
-   <em>Fig.3: Time trends of Nitric Oxide (NO) and Nitrogen Dioxide (NO2) levels from 2019 to 2024, showing the impact of ULEZ policy implementations.</em>
-</p>
-
    - **Westminster, Camden, and Kensington & Chelsea** saw the most substantial improvements in air quality.
    - **PM2.5 and PM10 levels** showed moderate improvement, but further measures may be needed for sustained reductions.
 
+<p align="center">
+   <img src="others\time trend NO.png" alt="Time trend of Nitric Oxide (NO) levels" width="46%" style="display: inline-block;"/>
+   <img src="others\time trend NO2.png" alt="Time trend of Nitrogen Dioxide (NO2) levels" width="45%" style="display: inline-block;"/>
+</p>
+<p align="center">
+   <em>Fig.3: Time trends of Nitric Oxide (NO) and Nitrogen Dioxide (NO2) levels from 2019 to 2024. The vertical blue dotted line is the distinguishing precedent in this study period. The vertical black dotted line represents the timing location of the detected changed point. The red line is the trend of the air pollutant time series in different periods before and after the ULEZ by the linear regression method, and there is a gray line that is the trend of the air pollutant time series during the Covid-19 pandemic.</em>
+</p>
+
+
+<p align="center">
+   <img src="others\diff change 2023.png" alt="Difference in air quality changes in 2023" width="550"/>
+</p>
+<p align="center">
+   <em>Fig.4: Post 2023 ULEZ Outer Expansion. Difference change percentage of detectors’ air quality mean value in central London.</em>
+</p>
+</p>
+
 2. **Shift in Public Transport Usage**
+
    - ULEZ **encouraged higher public transport usage**, with increased ridership in underground stations within the policy zones.
    - Reduction in private vehicle use contributed to overall improvements in **air quality and reduced traffic congestion**.
+
+   <p align="center">
+      <img src="3Method\3-2Correlation\Correlation matrices -1.png" alt="Correlation matrices -1" width="29%" style="display: inline-block;"/>
+      <img src="3Method\3-2Correlation\Correlation matrices -2.png" alt="Correlation matrices -2" width="10%" style="display: inline-block;"/>
+      <p><em>Fig.5: Correlation matrices showing the relationships between different air quality indicators and traffic data.</em></p>
+   </p>
+
 
 3. **Effectiveness of Spatial Interpolation (Kriging)**
    - **Kriging interpolation** was used to estimate air quality changes across the city, accounting for sensor data and meteorological factors (wind speed, wind direction).
